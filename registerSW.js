@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/schengen-visa-calculator/sw.js', { scope: '/schengen-visa-calculator/' })})}
